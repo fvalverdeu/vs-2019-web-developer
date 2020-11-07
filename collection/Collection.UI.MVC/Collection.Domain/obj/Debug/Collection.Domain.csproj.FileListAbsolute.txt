@@ -1,0 +1,11 @@
+D:\Repos\1-Propios\collection\Collection.UI.MVC\Collection.Domain\bin\Debug\Collection.Domain.dll
+D:\Repos\1-Propios\collection\Collection.UI.MVC\Collection.Domain\bin\Debug\Collection.Domain.pdb
+D:\Repos\1-Propios\collection\Collection.UI.MVC\Collection.Domain\bin\Debug\Dapper.dll
+D:\Repos\1-Propios\collection\Collection.UI.MVC\Collection.Domain\bin\Debug\Dapper.SimpleCRUD.dll
+D:\Repos\1-Propios\collection\Collection.UI.MVC\Collection.Domain\bin\Debug\Dapper.xml
+D:\Repos\1-Propios\collection\Collection.UI.MVC\Collection.Domain\bin\Debug\Dapper.SimpleCRUD.pdb
+D:\Repos\1-Propios\collection\Collection.UI.MVC\Collection.Domain\bin\Debug\Dapper.SimpleCRUD.xml
+D:\Repos\1-Propios\collection\Collection.UI.MVC\Collection.Domain\obj\Debug\Collection.Domain.csproj.CoreCompileInputs.cache
+D:\Repos\1-Propios\collection\Collection.UI.MVC\Collection.Domain\obj\Debug\Collection.Domain.csproj.CopyComplete
+D:\Repos\1-Propios\collection\Collection.UI.MVC\Collection.Domain\obj\Debug\Collection.Domain.dll
+D:\Repos\1-Propios\collection\Collection.UI.MVC\Collection.Domain\obj\Debug\Collection.Domain.pdb

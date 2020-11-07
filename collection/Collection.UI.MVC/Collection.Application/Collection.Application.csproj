@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C81C2672-0AD8-4B77-B722-1A1CDB527785}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Collection.Application</RootNamespace>
+    <AssemblyName>Collection.Application</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UseCases\ClientUseCase.cs" />
+    <Compile Include="UseCases\UserUseCase.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Collection.Application.DTO\Collection.Application.DTO.csproj">
+      <Project>{113d87d0-6cbf-460f-b3a5-df271ba03a59}</Project>
+      <Name>Collection.Application.DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Collection.Application.Interfaces\Collection.Application.Interfaces.csproj">
+      <Project>{c35e45b5-9103-462f-a3c5-4f10fe4ca245}</Project>
+      <Name>Collection.Application.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Collection.Domain\Collection.Domain.csproj">
+      <Project>{2a578898-fa84-477d-9a06-b2b8c50f639d}</Project>
+      <Name>Collection.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Collection.Infraestructure\Collection.Infraestructure.csproj">
+      <Project>{bfd437cf-c544-44cc-964e-73758a455872}</Project>
+      <Name>Collection.Infraestructure</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
