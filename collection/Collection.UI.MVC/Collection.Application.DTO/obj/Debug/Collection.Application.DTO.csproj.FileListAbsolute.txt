@@ -1,5 +1,0 @@
-D:\Repos\1-Propios\collection\Collection.UI.MVC\Collection.Application.DTO\bin\Debug\Collection.Application.DTO.dll
-D:\Repos\1-Propios\collection\Collection.UI.MVC\Collection.Application.DTO\bin\Debug\Collection.Application.DTO.pdb
-D:\Repos\1-Propios\collection\Collection.UI.MVC\Collection.Application.DTO\obj\Debug\Collection.Application.DTO.csproj.CoreCompileInputs.cache
-D:\Repos\1-Propios\collection\Collection.UI.MVC\Collection.Application.DTO\obj\Debug\Collection.Application.DTO.dll
-D:\Repos\1-Propios\collection\Collection.UI.MVC\Collection.Application.DTO\obj\Debug\Collection.Application.DTO.pdb
